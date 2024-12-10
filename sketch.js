@@ -12,6 +12,8 @@ function draw() {
   ellipse(width/2, height/2, 50);
 
   //add a blue square
-
+square(100,100,100,100);
+fill('blue');
+noStroke();
   
 }
