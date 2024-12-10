@@ -8,12 +8,13 @@ function draw() {
 
   // Make a yellow circle
   noStroke();
-  fill('yellow');
-  ellipse(width/2, height/2, 50);
+  fill("yellow");
+  ellipse(width / 2, height / 2, 50);
 
   //add a blue square
-square(100,100,100,100);
-fill('blue');
-noStroke();
-  
+  square(100, 100, 100, 100);
+  fill("blue");
+  noStroke();
+
+  //Animate the circles up and down
 }
